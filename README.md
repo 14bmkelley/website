@@ -1,5 +1,5 @@
 # Sigma Phi Delta Beta-Nu #
-Copyright(c) 2015 Brandon M. Kelley
+Copyright (c) 2015 Brandon M. Kelley
 
 We are a professional fraternity of engineers, geared toward the betterment of the engineering profession.
 
