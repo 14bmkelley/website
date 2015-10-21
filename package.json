@@ -1,20 +1,26 @@
 {
-  "name": "spd",
-  "version": "0.0.1",
-  "private": true,
+  "name": "spdcalpoly.org",
+  "version": "1.0.0",
+  "description": "The Sigma Phi Delta Beta-Nu fraternity webpage.",
   "scripts": {
-    "http": "node ./bin/server/http.js >> ./bin/logs/http.log",
-    "https": "node ./bin/server/https.js >> ./bin/logs/https.log",
-    "test": "node ./bin/server/test.js >> ./bin/logs/test.log"
+    "test": "node server/http.js",
+    "start": "sudo node server/http.js 80"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sigma-phi-delta-beta-nu/website.git"
+  },
+  "author": "Brandon M. Kelley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sigma-phi-delta-beta-nu/issues"
   },
   "dependencies": {
-    "body-parser": "~1.12.4",
-    "cookie-parser": "~1.3.5",
-    "debug": "~2.2.0",
-    "ejs": "~2.3.1",
-    "express": "~4.12.4",
-    "serve-favicon": "~2.2.1",
-    "aws-sdk": "~2.1.24",
-    "minify": "~1.4.19"
+    "body-parser": "^1.14.1",
+    "cookie-parser": "^1.4.0",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "random-string": "^0.1.2",
+    "synchronize": "^0.9.14"
   }
 }

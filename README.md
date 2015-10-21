@@ -1,9 +1,21 @@
-# Sigma Phi Delta Website #
+# Sigma Phi Delta Beta-Nu #
+Copyright(c) 2015 Brandon M. Kelley
 
-This is the code for the Sigma Phi Delta Fraternity website.
+We are a professional fraternity of engineers, geared toward the betterment of the engineering profession.
 
-### To run: ###
+### Set Up ###
+Pull the repository from Github.
+To install dependencies:
+```
+npm install
+```
 
-```javascript
+### To Start ###
+```
 npm start
+```
+
+### To Test ###
+```
+npm test
 ```

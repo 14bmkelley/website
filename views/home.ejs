@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<!-- views/home.ejs -->
+<!-- Copyright (c) 2015 Brandon M. Kelley -->
+
+<html>
+
+<head>
+  <title><%= title %> | Sigma Phi Delta Engineering</title>
+  <% include base/styles %>
+</head>
+
+<body id="home">
+  
+  <div id="resume-talk" class="full-screen">
+    <% include base/navbar %>
+    
+    <div class="container-fluid">
+      <div id="super-center">
+        <div class="col-sm-12 hidden-xs text-center">
+          <h1>Sigma Phi Delta Beta-Nu Chapter</h1>
+          <br/>
+          <p>The Premier International Fraternity of Engineers</p>
+        </div>
+        <div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center">
+          <h2>Sigma Phi Delta</h2>
+          <h2 style="margin-top: -5px;">Beta-Nu Chapter</h2>
+          <br/>
+          <p>The Premier International Fraternity of Engineers</p>
+        </div>
+      </div>
+    </div>
+    <!--
+    <ul class="icon-row">
+      <li><img src="/res/images/crest.png"/></li>
+      <li><img src="/res/images/calpoly.png"/></li>
+      <li><img src="/res/images/first_robotics.jpg"/></li>
+      <li><img src="/res/images/facebook.png"></li>
+      <li><img src="/res/images/twitter.png"></li>
+      <li><img src="/res/images/instagram.png"></li>
+      <li><img src="/res/images/linkedin.png"></li>
+    </ul>
+    -->
+  </div>
+
+  <% include base/scripts %>
+</body>
+
+</html>
